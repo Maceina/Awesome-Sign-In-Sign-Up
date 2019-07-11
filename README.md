@@ -6,9 +6,11 @@ Awesome sign in and sign up form with Javascirpt.
 Sign in and sign up form was recreated from scratch for educational purposes.
 
 This project originaly was made by: Florin Pop.
+
 His credentials: 
-Website: https://www.florin-pop.com/
-Email: popflorin1705@yahoo.com
+
+1. Website: https://www.florin-pop.com/
+2. Email: popflorin1705@yahoo.com
 
 For any use of this project contact the Florin Pop.
 
@@ -32,9 +34,9 @@ For any use of this project contact the Florin Pop.
 
 1. Sign In Section:
 
-![Sign in]()
+![Sign in](https://github.com/Maceina/Awesome-Sign-In-Sign-Up/blob/master/images/signin.png?raw=true)
 
 2. Sign Up Section:
 
-![Sign up]()
+![Sign up](https://github.com/Maceina/Awesome-Sign-In-Sign-Up/blob/master/images/sign%20up.png?raw=true)
 
