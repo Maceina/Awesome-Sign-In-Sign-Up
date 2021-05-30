@@ -1,42 +1,33 @@
-# Awesome-Sign-In-Sign-Up
-Awesome sign in and sign up form with Javascirpt.
+## Starlink
 
-# This repository is for educational purposes.
+<p align="center"><img src="public/starlink-demo.gif" alt="Demo Gif"></p>
 
-Sign in and sign up form was recreated from scratch for educational purposes.
+# Live: 
 
-This project originaly was made by: Florin Pop.
+### Project Description
 
-His credentials: 
+Ready for a space adventure? Starlink is a React.js project to track satellites in real-time based on geo-location. Users can enter parameters including longtitude and latitude to find all matched satellites, and then select one or a few satellites to view their animated trajectory on a world map for a custom duration. The real-time satellite tracking functionality is enabled by [N2YO.com](https://www.n2yo.com/).
 
-1. Website: https://www.florin-pop.com/
-2. Email: popflorin1705@yahoo.com
+### Technical Details
 
-For any use of this project contact the Florin Pop.
+A lightweight frontend project based on **React.js**, Starlink uses **Ant Design** for user-friendly UI components and **D3** for dynamic satellite visualization. It also uses the **Axios** library to make AJAX requests and **http-proxy-middleware** to deal with CORS issues. It is now deployed on **Netlify** for better stability.
 
-# Stuff used for this project:
+The app is bootstrapped using **create-react-app** boilerplate. The React component layout diagram is illustrated as below:
+<p align="center"><img src="public/component-diagram.png" alt="Diagram"></p>
 
-1. Fonst awesome social incons from: https://fontawesome.com/
-2. Visual studio code Live server.
-3. Font: "Monseratti".
+### How to Use
 
+<p align="center"><img src="public/recommended-settings.png" alt="Settings"></p>
 
-# How to use this project:
+1. Visit the [website](), enter all the parameter settings on the upper-left panel and click "Find Nearby Satellite". If you have no clue about the settings, feel free to use the example settings in the table below.
 
-1. Download or clone this repository.
-2. Open with Visual studio code.
-3. Install visual studio code exptention: "Live Server".
-4. Open index.html file, then right click and choose "Start live server".
-5. Enjoy this project on http://localhost:5000.
-6. Caution!!! If you want to use this project for your own personal use, contact Florin Pop for permission.
+| Parameter | Unit | Range | Example |
+| :----: | :----: | :----: | :----: |
+| Longtitude | degree | -180 - 180 | 50 |
+| Latitude | degree | -90 - 90 | 60 |
+| Elevation | meter | -413 - 8850 | 2000 |
+| Altitude | degree | 0 - 90 | 80 |
+| Duration | second | 0 - 90 | 20 |
 
-# Showcase:
-
-1. Sign In Section:
-
-![Sign in](https://github.com/Maceina/Awesome-Sign-In-Sign-Up/blob/master/images/signin.png?raw=true)
-
-2. Sign Up Section:
-
-![Sign up](https://github.com/Maceina/Awesome-Sign-In-Sign-Up/blob/master/images/sign%20up.png?raw=true)
-
+2. Select the satellites you want to see on the bottom-left panel, click "Track on the map" and wait for the animation to load. Notice that "no data" will appear if there are no satellite on your specified geo-location, which means you need to go back and adjust your satellite settings.
+3. View the selected satellite paths on the world map, and be awed!
