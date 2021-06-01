@@ -2,8 +2,7 @@
 
 <p align="center"><img src="public/starlink-demo.gif" alt="Demo Gif"></p>
 
-# Live: 
-
+# Live: https://starlink-demo3342.netlify.app/
 ### Project Description
 
 Ready for a space adventure? Starlink is a React.js project to track satellites in real-time based on geo-location. Users can enter parameters including longtitude and latitude to find all matched satellites, and then select one or a few satellites to view their animated trajectory on a world map for a custom duration. The real-time satellite tracking functionality is enabled by [N2YO.com](https://www.n2yo.com/).
@@ -19,7 +18,7 @@ The app is bootstrapped using **create-react-app** boilerplate. The React compon
 
 <p align="center"><img src="public/recommended-settings.png" alt="Settings"></p>
 
-1. Visit the [website](), enter all the parameter settings on the upper-left panel and click "Find Nearby Satellite". If you have no clue about the settings, feel free to use the example settings in the table below.
+1. Visit the [website](https://starlink-demo3342.netlify.app/), enter all the parameter settings on the upper-left panel and click "Find Nearby Satellite". If you have no clue about the settings, feel free to use the example settings in the table below.
 
 | Parameter | Unit | Range | Example |
 | :----: | :----: | :----: | :----: |
